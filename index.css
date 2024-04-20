@@ -1,8 +1,62 @@
-
-#child {
-    color: blue
+* {
+  background-color: black;
+  margin: 0;
+  padding: 0;
 }
 
-#child2 {
-    color: green
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding: 5px;
+  width: auto;
+  box-shadow: -1px 2px 2px 2px #e5e8ee;
+}
+.logo > img {
+  padding-left: 10px;
+  width: 100px;
+}
+
+.header-list {
+  cursor: pointer;
+  align-items: center;
+  gap: 50px;
+  color: #e5e8ee;
+  font-size: large;
+}
+
+.nav-bar > ul {
+  display: flex;
+  list-style: none;
+}
+
+.contact {
+  padding-right: 10px;
+}
+
+.about {
+  font-family: raleway;
+  color: #ff5f09;
+}
+
+.about > h3,
+h4 {
+  color: #e5e8ee;
+}
+.social-media {
+  list-style: none;
+}
+.mail-text {
+  color: #e5e8ee;
+}
+
+.mail,
+.location,
+.linkedin,
+.github {
+  color: #ff5f09;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
 }
