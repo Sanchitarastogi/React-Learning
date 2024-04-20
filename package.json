@@ -1,0 +1,36 @@
+{
+  "name": "react-learning",
+  "version": "1.0.0",
+  "description": "This is Learning React",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanchitarastogi/React-Learning.git"
+  },
+  "keywords": [],
+  "author": "Sanchita Rastogi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sanchitarastogi/React-Learning/issues"
+  },
+  "homepage": "https://github.com/Sanchitarastogi/React-Learning#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
